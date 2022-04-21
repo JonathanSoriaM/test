@@ -10,7 +10,7 @@ import { FraseModule } from './frase/frase.module';
   imports: [
    FraseModule,
     
-    MongooseModule.forRoot('mongodb://localhost:27017/nestExample',{
+    MongooseModule.forRoot('mongodb://localhost:27017/test',{
     //MongooseModule.forRoot('mongodb+srv://JonathanMSoria:Rsayviento5234@cluster0-dlged.mongodb.net/apiRest?retryWrites=true&w=majority',{
       useNewUrlParser:true
     }),
