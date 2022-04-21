@@ -8,10 +8,12 @@ import { FraseSchema } from 'src/schemas/frase.chema';
 @Module({
   imports: [
     MongooseModule.forFeature([
-      {name : 'Product', schema:FraseSchema }
+      {name : 'Frase', schema:FraseSchema }
     ])
   ],
   controllers: [FraseController],
-  providers: [FraseService]
+  providers: [FraseService],
+
+
 })
 export class FraseModule {}
